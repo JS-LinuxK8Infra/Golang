@@ -17,13 +17,13 @@ Golang: 1.22.2
 ## Deployments
 **Summary:** This section covers anything misc related to this project, such as compiler installation and version validation.
 
-- 2025-09-04 Install Go compiler locally.
+- 2025-09-04 Install Go compiler locally and validate version.
   ![misc1-1](Miscellaneous/misc1-1.jpg)
-- 2025-09-04 Validate installed compiler version.
-  ![misc1-2](Miscellaneous/misc1-2.jpg)
 
 ## Scripts
 **Summary:** This section all scripts written in Go. Includes what they do and expected outcome, also includes any errors and debugging encountered.
 
-- 2025-09-04 Basic "Good Evening" script. Outputs the words "Good Evening" to the terminal.
+- 2025-09-04 "Good Evening" script code.
   ![scr1-1](Scripts/scr1-1.jpg)
+- 2025-09-04 Basic "Good Evening" script. Outputs the words "Good Evening" to the terminal.
+  ![scr1-2](Scripts/scr1-2.jpg)
