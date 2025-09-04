@@ -29,5 +29,5 @@ Golang: 1.22.2
 
 - 2025-09-04 Script that outputs "Good Evening" to the terminal.
   ![good-evening](Scripts/Scripts/good-evening.go)
-- 2025-09-04 Output of Good Evening script.
+- 2025-09-04 Output of Good Evening script.  
   ![scr1-1](Scripts/scr1-1.jpg)
