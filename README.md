@@ -13,6 +13,7 @@ Golang: 1.22.2
 │   ├── Misc/
 │   ├── Scripts/
 └── Scripts/                    # Go scripts with use case documentation
+
 ```
 ## Deployments
 **Summary:** This section covers anything misc related to this project, such as compiler installation and version validation.
@@ -20,10 +21,13 @@ Golang: 1.22.2
 - 2025-09-04 Install Go compiler locally and validate version.  
   ![misc1-1](Miscellaneous/misc1-1.jpg)
 
+## Code
+**Summary:** This section covers anything misc related to this project, such as compiler installation and version validation.
+
 ## Scripts
 **Summary:** This section all scripts written in Go. Includes what they do and expected outcome, also includes any errors and debugging encountered.
 
-- 2025-09-04 "Good Evening" script code.
+- 2025-09-04 Script that outputs "Good Evening" to the terminal.
+  ![good-evening](Scripts/Scripts/good-evening.go)
+- 2025-09-04 Output of Good Evening script.
   ![scr1-1](Scripts/scr1-1.jpg)
-- 2025-09-04 Basic "Good Evening" script. Outputs the words "Good Evening" to the terminal.
-  ![scr1-2](Scripts/scr1-2.jpg)
