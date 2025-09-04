@@ -17,7 +17,7 @@ Golang: 1.22.2
 ## Deployments
 **Summary:** This section covers anything misc related to this project, such as compiler installation and version validation.
 
-- 2025-09-04 Install Go compiler locally and validate version.
+- 2025-09-04 Install Go compiler locally and validate version.  
   ![misc1-1](Miscellaneous/misc1-1.jpg)
 
 ## Scripts
