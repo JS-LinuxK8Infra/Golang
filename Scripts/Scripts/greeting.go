@@ -1,4 +1,3 @@
-package desktop
 // This defines the package being called
 package main
 
