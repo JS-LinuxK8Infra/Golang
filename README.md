@@ -33,5 +33,5 @@ Golang: 1.22.2
   ![scr1-1](Scripts/scr1-1.jpg)
 - 2025-09-04 Script that outputs "Hi, my name is Justin" to the terminal. `greeting.go`  
   [greeting.go](Scripts/Scripts/greeting.go)
-- 2025-09-04 Output of greeting script, error, caused by incorrectly using # instead of // (habit from Bash/Python), validate script is functioning correctly after correction.
-  ![scr1-1](Scripts/scr1-1.jpg)
+- 2025-09-04 Output of greeting script, error, caused by incorrectly using # instead of // (habit from Bash/Python), validate script is functioning correctly after correction.  
+  ![scr1-2](Scripts/scr1-2.jpg)
