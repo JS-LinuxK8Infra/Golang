@@ -31,3 +31,5 @@ Golang: 1.22.2
   [good-evening.go](Scripts/Scripts/good-evening.go)
 - 2025-09-04 Output of Good Evening script.  
   ![scr1-1](Scripts/scr1-1.jpg)
+- 2025-09-04 Script that outputs "Hi, my name is Justin" to the terminal. `greeting.go`  
+  [greeting.go](Scripts/Scripts/greeting.go) 
