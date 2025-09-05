@@ -28,6 +28,7 @@ Golang: 1.22.2
 **Summary:** This section all scripts written in Go. Includes what they do and expected outcome, also includes any errors and debugging encountered.
 
 - 2025-09-04 Script that outputs "Good Evening" to the terminal.
+
   [good-evening](Scripts/Scripts/good-evening.go)
 - 2025-09-04 Output of Good Evening script.  
   ![scr1-1](Scripts/scr1-1.jpg)
