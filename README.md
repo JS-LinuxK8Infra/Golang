@@ -1,5 +1,5 @@
 # Scope
-This repository contains all go scripts and code I have planned to write.
+This repository contains all go scripts and code write, test, debug and confirm are functional.
 
 ## Environment
 Operating System: Ubuntu 24.04 LTS
@@ -29,7 +29,9 @@ Golang: 1.22.2
 
 - 2025-09-04 Script that outputs "Good Evening" to the terminal. `good-evening.go`  
   [good-evening.go](Scripts/Scripts/good-evening.go)
-- 2025-09-04 Output of Good Evening script.  
+- 2025-09-04 Output of good-evening script.  
   ![scr1-1](Scripts/scr1-1.jpg)
 - 2025-09-04 Script that outputs "Hi, my name is Justin" to the terminal. `greeting.go`  
-  [greeting.go](Scripts/Scripts/greeting.go) 
+  [greeting.go](Scripts/Scripts/greeting.go)
+- 2025-09-04 Output of greeting script, error, caused by incorrectly using # instead of // (habit from Bash/Python), validate script is functioning correctly after correction.
+  ![scr1-1](Scripts/scr1-1.jpg)
