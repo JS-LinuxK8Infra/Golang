@@ -55,3 +55,7 @@ Golang: 1.22.2
   [name-location-opinion-println.go](Scripts/Scripts/name-location-opinion-println.go)
 - 2025-09-06 Output of name-location-opinion-println script.  
   ![scr1-7](Scripts/scr1-7.jpg)
+- 2025-09-06 Script that calls the main function, assigns a string and a float to two different variables, then uses Printf to combine each in a string output to the terminal `months.go`  
+  [name-location-opinion.go](Scripts/Scripts/name-location-opinion.go)
+- 2025-09-06 Output of months script.  
+  ![scr1-8](Scripts/scr1-8.jpg)
