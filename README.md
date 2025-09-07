@@ -47,3 +47,7 @@ Golang: 1.22.2
   [name-location-openion.go](Scripts/Scripts/name-location-openion.go)
 - 2025-09-06 Output of name-location-openion script.  
   ![scr1-5](Scripts/scr1-5.jpg)
+- 2025-09-06 Script that assigns a string to three different variables, then prints all three to the terminal, with each being printed to a newline on the terminal. `name-location-openion-newline.go`  
+  [name-location-openion.go](Scripts/Scripts/name-location-openion.go)
+- 2025-09-06 Output of name-location-openion-newline script.  
+  ![scr1-6](Scripts/scr1-6.jpg)
