@@ -43,11 +43,11 @@ Golang: 1.22.2
   [time.go](Scripts/Scripts/time.go)
 - 2025-09-06 Output of weather script.  
   ![scr1-4](Scripts/scr1-4.jpg)
-- 2025-09-06 Script that assigns a string to two different variables, then joins a string to both variables and prints to the terminal. `name-location-openion.go`  
+- 2025-09-06 Script that assigns a string to two different variables, then joins a string to both variables and prints to the terminal. `name-location-opinion.go`  
   [name-location-opinion.go](Scripts/Scripts/name-location-opinion.go)
 - 2025-09-06 Output of name-location-opinion script.  
   ![scr1-5](Scripts/scr1-5.jpg)
-- 2025-09-06 Script that assigns a string to three different variables, then prints all three to the terminal, with each being printed to a newline on the terminal. `name-location-openion-newline.go`  
+- 2025-09-06 Script that assigns a string to three different variables, then prints all three to the terminal, with each being printed to a newline on the terminal. `name-location-opinion-newline.go`  
   [name-location-opinion.go](Scripts/Scripts/name-location-opinion.go)
 - 2025-09-06 Output of name-location-opinion-newline script.  
   ![scr1-6](Scripts/scr1-6.jpg)
