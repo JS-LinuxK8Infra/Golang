@@ -37,5 +37,5 @@ Golang: 1.22.2
   ![scr1-2](Scripts/scr1-2.jpg)
 - 2025-09-04 Script that outputs "The weather is nice today" to the terminal. `weather.go`  
   [weather.go](Scripts/Scripts/weather.go)
-- 2025-09-04 Output of weather script.
+- 2025-09-04 Output of weather script.  
   ![scr1-3](Scripts/scr1-3.jpg)
