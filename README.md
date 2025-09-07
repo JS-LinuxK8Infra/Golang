@@ -43,3 +43,7 @@ Golang: 1.22.2
   [time.go](Scripts/Scripts/time.go)
 - 2025-09-06 Output of weather script.  
   ![scr1-4](Scripts/scr1-4.jpg)
+- 2025-09-06 Script that assigns a string to two different variables, then joins a string to both variables and prints to the terminal. `name-location-openion.go`  
+  [name-location-openion.go](Scripts/Scripts/name-location-openion.go)
+- 2025-09-06 Output of name-location-openion script.  
+  ![scr1-5](Scripts/scr1-5.jpg)
