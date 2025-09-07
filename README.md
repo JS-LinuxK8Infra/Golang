@@ -47,7 +47,11 @@ Golang: 1.22.2
   [name-location-opinion.go](Scripts/Scripts/name-location-opinion.go)
 - 2025-09-06 Output of name-location-opinion script.  
   ![scr1-5](Scripts/scr1-5.jpg)
-- 2025-09-06 Script that assigns a string to three different variables, then prints all three to the terminal, with each being printed to a newline on the terminal. `name-location-opinion-newline.go`  
+- 2025-09-06 Script that assigns a string to three different variables, then prints all three to the terminal, with each being printed to a newline on the terminal via the newline character. `name-location-opinion-newline.go`  
   [name-location-opinion-newline.go](Scripts/Scripts/name-location-opinion-newline.go)
 - 2025-09-06 Output of name-location-opinion-newline script.  
   ![scr1-6](Scripts/scr1-6.jpg)
+- 2025-09-06 Script that assigns a string to three different variables, then prints all three to the terminal, with each being printed to a newline on the terminal via the Println function. `name-location-opinion-newline.go`  
+  [name-location-opinion-println.go](Scripts/Scripts/name-location-opinion-println.go)
+- 2025-09-06 Output of name-location-opinion-println script.  
+  ![scr1-7](Scripts/scr1-7.jpg)
