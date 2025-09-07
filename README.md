@@ -1,5 +1,5 @@
 # Scope
-This repository contains all go scripts and code write, test, debug and confirm are functional.
+Go scripts and code - writen, tested and debuged.
 
 ## Environment
 Operating System: Ubuntu 24.04 LTS
