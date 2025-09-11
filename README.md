@@ -71,3 +71,7 @@ Golang: 1.22.2
   [outer_inner_blocks.go](Scripts/Scripts/outer_inner_blocks.go)
 - 2025-09-11 Output of outer_inner_blocks script.  
   ![scr1-11](Scripts/scr1-11.jpg)
+- 2025-09-11 Calls the main function, do not assign a value to any of the data type variables defined, print to terminal which returns the default zero value for each `zero_values.go`  
+  [zero_values.go](Scripts/Scripts/zero_values.go)
+- 2025-09-11 Output of zero_value script.  
+  ![scr1-12](Scripts/scr1-12.jpg)
