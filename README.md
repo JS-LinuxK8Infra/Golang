@@ -63,3 +63,7 @@ Golang: 1.22.2
   [shorthand.go](Scripts/Scripts/shorthand.go)
 - 2025-09-07 Output of shorthand script.  
   ![scr1-9](Scripts/scr1-9.jpg)
+- 2025-09-10 Call the main function, define two string variables and one integer variable using shorthand and outputting each to the terminal on a seperate line. `shorthand_expanded.go`  
+  [shorthand_expanded.go](Scripts/Scripts/shorthand_expanded.go)
+- 2025-09-07 Output of shorthand_expanded script.  
+  ![scr1-10](Scripts/scr1-10.jpg)
