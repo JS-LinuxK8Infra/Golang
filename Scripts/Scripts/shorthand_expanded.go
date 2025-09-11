@@ -1,4 +1,3 @@
-package desktop
 // Define the package to use
 package main
 
