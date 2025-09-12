@@ -71,7 +71,11 @@ Golang: 1.22.2
   [outer_inner_blocks.go](Scripts/Scripts/outer_inner_blocks.go)
 - 2025-09-11 Output of outer_inner_blocks script.  
   ![scr1-11](Scripts/scr1-11.jpg)
-- 2025-09-11 Calls the main function, do not assign a value to any of the data type variables defined, print to terminal which returns the default zero value for each `zero_values.go`  
+- 2025-09-11 Do not assign a value to any of the data types defined in a variable, print to terminal which returns the default zero value for each `zero_values.go`  
   [zero_values.go](Scripts/Scripts/zero_values.go)
 - 2025-09-11 Output of zero_value script.  
   ![scr1-12](Scripts/scr1-12.jpg)
+- 2025-09-11 Defines (3) string vars, (1) bool var and (1) float64 var. Then, prints each var on a new line requesting the user enter the desired input matched per data type. `user_input.go`  
+  [user_input.go](Scripts/Scripts/user_input.go)
+- 2025-09-11 Output of user_input script.  
+  ![scr1-13](Scripts/scr1-13.jpg)
