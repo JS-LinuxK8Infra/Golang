@@ -79,3 +79,7 @@ Golang: 1.22.2
   [user_input.go](Scripts/Scripts/user_input.go)
 - 2025-09-11 Output of user_input script.  
   ![scr1-13](Scripts/scr1-13.jpg)
+- 2025-09-14 Do not assign a value to any of the defined variables, print to the terminal, which then returns the default zero value for each. `variable_types.go`  
+  [variable_types.go](Scripts/Scripts/variable_types.go)
+- 2025-09-14 Output of user_input script.  
+  ![scr1-14](Scripts/scr1-14.jpg)
