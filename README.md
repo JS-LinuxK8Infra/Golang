@@ -81,5 +81,9 @@ Golang: 1.22.2
   ![scr1-13](Scripts/scr1-13.jpg)
 - 2025-09-14 Do not assign a value to any of the defined variables, print to the terminal, which then returns the default zero value for each. `variable_types.go`  
   [variable_types.go](Scripts/Scripts/variable_types.go)
-- 2025-09-14 Output of user_input script.  
+- 2025-09-14 Output of variable_types script.  
   ![scr1-14](Scripts/scr1-14.jpg)
+- 2025-09-14 Defines a var of each data type, prints the output of the variables along with the associated data type to the terminal using the reflect.TypeOf function. `variable_types_typeof.go`  
+  [variable_types_typeof.go](Scripts/Scripts/variable_types_typeof.go)
+- 2025-09-14 Output of variable_types_typeof script.  
+  ![scr1-15](Scripts/scr1-15.jpg)
