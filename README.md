@@ -87,3 +87,7 @@ Golang: 1.22.2
   [variable_types_typeof.go](Scripts/Scripts/variable_types_typeof.go)
 - 2025-09-14 Output of variable_types_typeof script.  
   ![scr1-15](Scripts/scr1-15.jpg)
+- 2025-09-14 Assigns a string and a float to two different variables, then uses Printf to combine each into a string that is output to the terminal `int_to_float64.go`  
+  [int_to_float64.go](Scripts/Scripts/int_to_float64.go)
+- 2025-09-14 Output of int_to_float64 script.  
+  ![scr1-16](Scripts/scr1-16.jpg)
