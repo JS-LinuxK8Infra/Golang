@@ -107,3 +107,7 @@ Golang: 1.22.2
   [str_to_int_err.go](Scripts/Scripts/str_to_int_err.go)
 - 2025-09-14 Output of str_to_int_err script.  
   ![scr1-20](Scripts/scr1-20.jpg)
+- 2025-09-14 Defines two constants, a third constant with a division equation, then prints a string, the result, and a second string to the terminal. `constants.go`  
+  [constants.go](Scripts/Scripts/constants.go)
+- 2025-09-14 Output of constants script.  
+  ![scr1-21](Scripts/scr1-21.jpg)
