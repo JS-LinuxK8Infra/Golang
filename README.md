@@ -87,11 +87,15 @@ Golang: 1.22.2
   [variable_types_typeof.go](Scripts/Scripts/variable_types_typeof.go)
 - 2025-09-14 Output of variable_types_typeof script.  
   ![scr1-15](Scripts/scr1-15.jpg)
-- 2025-09-14 Assigns a integer and a float64 data type to two different variables, then uses Printf to combine each into an float64 datatype that is output to the terminal. `int_to_float64.go`  
+- 2025-09-14 Assigns an integer and a float64 data type to two different variables, then uses Printf to combine each into an float64 datatype that is output to the terminal. `int_to_float64.go`  
   [int_to_float64.go](Scripts/Scripts/int_to_float64.go)
 - 2025-09-14 Output of int_to_float64 script.  
   ![scr1-16](Scripts/scr1-16.jpg)
-- 2025-09-14 Assigns a integer and a float64 data type to two different variables, then uses Printf to combine each in an integer data type that is output to the terminal. `float64_to_int.go`  
+- 2025-09-14 Assigns an integer and a float64 data type to two different variables, then uses Printf to combine each into a integer data type that is output to the terminal. `float64_to_int.go`  
   [float64_to_int.go](Scripts/Scripts/float64_to_int.go)
 - 2025-09-14 Output of float64_to_int script.  
+  ![scr1-17](Scripts/scr1-17.jpg)
+- 2025-09-14 Assigns an integer and a string data type to two different variables, then uses Printf to combine each into a string data type that is output to the terminal. `int_to_str.go`  
+  [int_to_str.go](Scripts/Scripts/int_to_str.go)
+- 2025-09-14 Output of int_to_str script.  
   ![scr1-17](Scripts/scr1-17.jpg)
