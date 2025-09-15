@@ -1,5 +1,5 @@
 # Scope
-Go scripts and code - writen, tested and debuged.
+Go scripts and code - written, tested and debugged.
 
 ## Environment
 Operating System: Ubuntu 24.04 LTS
