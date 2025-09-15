@@ -98,4 +98,12 @@ Golang: 1.22.2
 - 2025-09-14 Assigns an integer and a string data type to two different variables, then uses Printf to combine each into a string data type that is output to the terminal. `int_to_str.go`  
   [int_to_str.go](Scripts/Scripts/int_to_str.go)
 - 2025-09-14 Output of int_to_str script.  
-  ![scr1-17](Scripts/scr1-17.jpg)
+  ![scr1-18](Scripts/scr1-18.jpg)
+- 2025-09-14 Assigns a string and integer data type to two different variables, then uses Atoi to convert the str to an int on the terminal along with the data type, also returns there are not any errors. `str_to_int_noerr.go`  
+  [str_to_int_noerr.go](Scripts/Scripts/str_to_int_noerr.go)
+- 2025-09-14 Output of str_to_int_noerr script.  
+  ![scr1-19](Scripts/scr1-19.jpg)
+  - 2025-09-14 Assigns an integer and a string data type to two different variables, then uses Printf to combine each into a string data type that is output to the terminal, along with intentionally outputting an error. `str_to_int_err.go`  
+  [int_to_str.go](Scripts/Scripts/int_to_str.go)
+- 2025-09-14 Output of str_to_int_err script.  
+  ![scr1-20](Scripts/scr1-20.jpg)
