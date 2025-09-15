@@ -104,6 +104,6 @@ Golang: 1.22.2
 - 2025-09-14 Output of str_to_int_noerr script.  
   ![scr1-19](Scripts/scr1-19.jpg)
 - 2025-09-14 Assigns an integer and a string data type to two different variables, then uses Printf to combine each into a string data type that is output to the terminal, along with intentionally outputting an error. `str_to_int_err.go`  
-  [int_to_str.go](Scripts/Scripts/int_to_str.go)
+  [str_to_int_err.go](Scripts/Scripts/str_to_int_err.go)
 - 2025-09-14 Output of str_to_int_err script.  
   ![scr1-20](Scripts/scr1-20.jpg)
