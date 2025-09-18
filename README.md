@@ -112,14 +112,14 @@ Golang: 1.22.2
 - 2025-09-14 Output of constants script.  
   ![scr1-21](Scripts/scr1-21.jpg)
 - 2025-09-17 Defines two constants, a third constant with a division equation, when printing to the terminal this will intentionally cause an error due to mismatched datatypes. `constants_error.go`  
-- ![contants_error.go](Scripts/Scripts/constants_error.go)
+  [contants_error.go](Scripts/Scripts/constants_error.go)
 - 2025-09-17 Output of constants_error script.  
   ![scr1-22](Scripts/scr1-22.jpg)
 - 2025-09-17 Defines two constants, a third constant with a division equation, then prints the result, which causes an intentional error as the int variable is not defined. `constants_error_2.go`  
-  ![contants_error_2.go](Scripts/Scripts/constants_error_2.go)
+  [contants_error_2.go](Scripts/Scripts/constants_error_2.go)
 - 2025-09-17 Output of constants_error_2 script.  
   ![scr1-23](Scripts/scr1-23.jpg)
 - 2025-09-17 Defines six variables, two string, four integar, and utilizes all six comparison operators to return the expected boolean values to the terminal. `comparison_operators.go`  
-  ![comparison_operators.go](Scripts/Scripts/comparison_operators.go)
+  [comparison_operators.go](Scripts/Scripts/comparison_operators.go)
 - 2025-09-17 Output of comparison_operators script.  
   ![scr1-24](Scripts/scr1-24.jpg)
