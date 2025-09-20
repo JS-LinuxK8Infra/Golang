@@ -123,7 +123,7 @@ Golang: 1.22.2
   [comparison_operators.go](Scripts/Scripts/comparison_operators.go)
 - 2025-09-17 Output of comparison_operators script.  
   ![scr1-24](Scripts/scr1-24.jpg)
-- 2025-09-20 Defines multiple string, float64 and integer variables, then, uses various arithmatic operators to execute basic mathematical operations.  `arithmatic_operators.go`
+- 2025-09-20 Defines multiple string, float64 and integer variables, then, uses various arithmatic operators to execute basic mathematical operations. `arithmatic_operators.go`
   [arithmatic_operators.go](Scripts/Scripts/arithmatic_operators.go)
 - 2025-09-20 Output of arithmatic_operators script.  
   ![scr1-25](Scripts/scr1-25.jpg)
