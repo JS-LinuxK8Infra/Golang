@@ -1,5 +1,5 @@
 # Scope
-Go scripts and code - written, tested and debugged.
+Systematic Go language learning with 25+ scripts covering fundamentals to advanced concepts.
 
 ## Environment
 Operating System: Ubuntu 24.04 LTS
