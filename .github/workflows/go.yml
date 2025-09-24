@@ -19,7 +19,7 @@ jobs:
       with:
         go-version: '1.25.1'
     #Disables caching
-        cache: false
+        cache: true
     #Prints the version of Go being used
     - name: Print Go version
       run: go version 
