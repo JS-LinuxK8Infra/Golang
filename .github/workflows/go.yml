@@ -1,4 +1,4 @@
-# Tutorial workflow from GitHub that builds a Go program
+# Workflow inspired by the Github Go template that builds one of my Go scripts
 name: Go
 
 on:
@@ -8,12 +8,12 @@ on:
     branches: [ "main" ]
 
 jobs:
-
+  #Specifies the VM type to use 
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v5
-    #Set up Go with the specified version and using v6 of actions/setup-go
+    #Set up Go with the specified action version - using v6 along with specifying the version of Go to use
     - name: Set up Go
       uses: actions/setup-go@v6
       with:
@@ -29,6 +29,6 @@ jobs:
     #Download Go modules
     - name: Download Go modules
       run: go mod tidy
-    #Builds the script and then deploys
+    #Builds the script and then deploys - full path
     - name: Build
       run: go run ./Scripts/Scripts/time.go
