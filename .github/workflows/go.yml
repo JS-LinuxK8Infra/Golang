@@ -18,8 +18,14 @@ jobs:
       uses: actions/setup-go@v5
       with:
         go-version: '1.25.1'
+    #Disables caching
+        cache: false
     #Prints the version of Go being used
     - name: Print Go version
       run: go version 
+    #Download Go modules
+    - name: Download Go modules
+      run: go mod tidy
+    #Builds the script and then deploys
     - name: Build
       run: go run time.go
