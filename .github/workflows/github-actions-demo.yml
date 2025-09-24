@@ -1,4 +1,4 @@
-#This workflow automatically updates my Kubernetes page everytime I update my README.md with additional work completed I want to showcase
+#This workflow automatically updates my Golang page everytime I update my README.md with additional work completed I want to showcase
 name: Deploy Golang README.md updates to GitHub pages website
 on:
   push:
