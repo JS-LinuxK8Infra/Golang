@@ -1,5 +1,7 @@
 #This workflow automatically updates my Golang page everytime I update my README.md with additional work completed I want to showcase
 name: Deploy Golang README.md updates to GitHub pages website
+#This is workflow name - will appear in the list of workflow runs
+run-name: Golang
 on:
   push:
     branches:
