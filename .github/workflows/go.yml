@@ -13,13 +13,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v5
-    #Set up Go with the specified version
+    #Set up Go with the specified version and using v6 of actions/setup-go
     - name: Set up Go
-      uses: actions/setup-go@v5
+      uses: actions/setup-go@v6
       with:
         go-version: '1.25.1'
     #Disables caching
         cache: false
+    #Initializes the Go module
+    - name: Initialize Go
+      run: go mod init time
     #Prints the version of Go being used
     - name: Print Go version
       run: go version 
