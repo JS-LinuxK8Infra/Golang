@@ -31,4 +31,4 @@ jobs:
       run: go mod tidy
     #Builds the script and then deploys
     - name: Build
-      run: go run ./Golang/Scripts/Scripts/time.go
+      run: go run ./Scripts/Scripts/time.go
