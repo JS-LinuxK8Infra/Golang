@@ -16,8 +16,10 @@ jobs:
     #Prints the version of Go being used
     - name: Print Go version
       run: go version 
-
+    #Set up Go with the specified version
     - name: Set up Go
       uses: actions/setup-go@v5
       with:
         go-version: '1.25.1'
+    - name: Build
+      run: go run time.go
