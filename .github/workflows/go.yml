@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v5
-    #Prints the version of Go being used
-    - name: Print Go version
-      run: go version 
     #Set up Go with the specified version
     - name: Set up Go
       uses: actions/setup-go@v5
       with:
         go-version: '1.25.1'
+    #Prints the version of Go being used
+    - name: Print Go version
+      run: go version 
     - name: Build
       run: go run time.go
