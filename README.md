@@ -127,3 +127,15 @@ Golang: 1.22.2
   [arithmatic_operators.go](Scripts/Scripts/arithmatic_operators.go)
 - 2025-09-20 Output of arithmatic_operators script.  
   ![scr1-25](Scripts/scr1-25.jpg)
+- 2025-09-26 Defines two int variables, then executes the script using all five logical operators. `logical_operators.go`  
+  [logical_operators.go](Scripts/Scripts/logical_operators.go)
+- 2025-09-26 Output of logical_operators script.  
+  ![scr1-26](Scripts/scr1-26.jpg)
+- 2025-09-26 Defines two int variables, then executes the script using all five assignment operators. `assignment_operators.go`  
+  [assignment_operators.go](Scripts/Scripts/assignment_operators.go)
+- 2025-09-26 Output of logical_operators script.  
+  ![scr1-27](Scripts/scr1-27.jpg)
+- 2025-09-26 Defines int variables, then executes the script using all five bitwise operators. `bitwise_operators.go`  
+  [bitwise_operators.go](Scripts/Scripts/bitwise_operators.go)
+- 2025-09-26 Output of logical_operators script.  
+  ![scr1-28](Scripts/scr1-28.jpg)
