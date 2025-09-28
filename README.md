@@ -139,3 +139,13 @@ Golang: 1.22.2
   [bitwise_operators.go](Scripts/Scripts/bitwise_operators.go)
 - 2025-09-26 Output of logical_operators script.  
   ![scr1-28](Scripts/scr1-28.jpg)
+- 2025-09-28 Defines a string var, prints the results to the terminal. Then, defines a second string var, then executes against an if-else statement. Finally, defines a string var using shorthand, and prints a string to the terminal indicating the true statement for the three. `if_else_statements.go`  
+  [if_else_statements.go](Scripts/Scripts/if_else_statements.go)
+- 2025-09-28 Output of if_else_statements script.  
+  ![scr1-29](Scripts/scr1-29.jpg)
+- 2025-09-28 TROUBLESHOOTING: Code debugging/root cause analysis indicated the issue was using shorthand incorrectly as both the var and string were annotated, when the correct syntax was to use := and not annotate either of them.
+  ![scr1-30](Scripts/scr1-30.jpg)
+- 2025-09-28 Defines an int var, uses a switch-case operator, executes the case statement. Then, defines an int var that executes against multiple  case blocks finishing with printing the output to the terminal. Then, defines an int var, uses fallthrough, runs through each subsequent case block stopping at the first block not having fallthrough and prints that to the terminal. Finally, defines two int variables, runs through multiple case blocks without using fallthrough, and prints result to the terminal. `switch_case.go`  
+  [switch_case.go](Scripts/Scripts/switch_case.go)
+- 2025-09-28 Output of switch_case script.  
+  ![scr1-31](Scripts/scr1-31.jpg)
