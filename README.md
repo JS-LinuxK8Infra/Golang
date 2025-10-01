@@ -149,7 +149,7 @@ Golang: 1.22.2
   [switch_case.go](Scripts/Scripts/switch_case.go)
 - 2025-09-28 Output of switch_case script.  
   ![scr1-31](Scripts/scr1-31.jpg)
-- 2025-09-30 Infinite loop that increments the jt var increasing by 1 each time and will not terminate until manually terminated. `for_loop_infinite.go`  
-  [for_loop_infinite.go](Scripts/Scripts/for_loop_infinite.go)
+- 2025-09-30 Infinite loop that increments the jt var increasing by 1 each time and will not terminate until manually terminated. `infinite_loop.go`  
+  [infinite_loop.go](Scripts/Scripts/infinite_loop.go)
 - 2025-09-30 Output of switch_case script.  
   ![scr1-32](Scripts/scr1-32.jpg)
