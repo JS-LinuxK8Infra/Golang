@@ -26,7 +26,7 @@ Golang: 1.22.2
 
 - 2025-09-30 Defines an array and assigns values to all 3 strings. Defines a second array and assigns values to all 4 int. Defines a third array and assigns values to all 4 strings. Defines a fourth array, assigns values to all 3 strings, prints the name of the array, calls the element from index 2 (plums), also (array indexing) replaces the element at index 0 with another string and prints the updated array. Assign ints to an 8 element array, then runs a for loop through the ints provided until reaching the end. Defines a fifth array, forloop through the array and provides the element with the corosponding index location. Defines a sixth array, muiltidimensional - 2D, specifies the number of indexes as well as the number of elements per index, then calls the desired element from the specified index. `arrays.go`
 [arrays.go](Code/Code/arrays.go)
-- 2025-09-30 Output of arrays script.  
+- 2025-09-30 Output of arrays code.  
 ![cde1-1](Code/cde1-1.jpg)
 
 ## Scripts
