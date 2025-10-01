@@ -46,7 +46,7 @@ Golang: 1.22.2
   ![scr1-3](Scripts/scr1-3.jpg)
 - 2025-09-06 Assigns a string statement to the time variable then outputs the string to the terminal. `time.go`  
   [time.go](Scripts/Scripts/time.go)
-- 2025-09-06 Output of weather script.  
+- 2025-09-06 Output of time script.  
   ![scr1-4](Scripts/scr1-4.jpg)
 - 2025-09-06 Assigns a string to two different variables, then joins a string to both variables and prints to the terminal. `name-location-opinion.go`  
   [name-location-opinion.go](Scripts/Scripts/name-location-opinion.go)
