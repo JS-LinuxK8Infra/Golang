@@ -24,13 +24,13 @@ The repository is organized to provide maximum transparency between code, execut
 | `Code/` | Contains foundational code and structured Go files, including data structures and type conversions. |
 | `Scripts/` | Contains various scripts focusing on I/O, variables, and control flow mechanics. |
 | `Screenshots/` | Visual evidence of all code execution and troubleshooting steps (referenced in the `OPERATIONAL_LOG.md`). |
-| **`OPERATIONAL_LOG.md`** | **Full, chronological, dated log of all tasks, outputs, and troubleshooting steps.** (Your detailed original file.) |
+| **`OPERATIONAL_LOG.md`** | **Full, chronological, dated log of all tasks, outputs, and troubleshooting steps.** |
 
 ---
 
 ## 📚 Core Learning Concepts by Category
 
-The following sections organize the learning artifacts by logical concept, demonstrating progression from basic syntax to complex data structure manipulation.
+The following sections organize the learning artifacts by logical concept, demonstrating progression from basic syntax to data structure manipulation.
 
 ### 1. Variables, Types, and I/O Fundamentals
 
@@ -65,7 +65,3 @@ The following sections organize the learning artifacts by logical concept, demon
 | 2025-09-30 | `arrays.go` | Defines and manipulates single- and multi-dimensional (2D) arrays, including iteration using `for` loops and element assignment/replacement. |
 
 ---
-
-## 🔑 Key Takeaway for Reviewers
-
-This repository demonstrates a **systematic, disciplined approach to technical mastery**. The inclusion of troubleshooting logs and explicit type-handling examples (like `str_to_int_err.go`) indicates a focus on robust code architecture, which is critical for writing reliable infrastructure automation tools.
