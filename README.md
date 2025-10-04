@@ -4,7 +4,7 @@
 
 ## 🚀 Project Overview
 
-This repository documents a dedicated, systematic learning initiative for Go, with a focus on core concepts essential for modern Platform Engineering and **Infrastructure as Code (IaC). The goal is to build the knowledge necessary for developing high-performance, concurrent, and scalable systems tools (CLI utilities, API services, Kubernetes controllers).
+This repository documents a dedicated, systematic learning initiative for Go, with a focus on core concepts essential for modern Platform Engineering and Infrastructure as Code (IaC). The goal is to build the knowledge necessary for developing high-performance, concurrent, and scalable systems tools (CLI utilities, API services, Kubernetes controllers).
 
 | Environment | Detail |
 | :--- | :--- |
