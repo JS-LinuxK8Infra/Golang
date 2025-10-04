@@ -1,12 +1,10 @@
 # Go Language Systematic Learning & Development
 
-**Supporting Repository for Resume Entry: Senior Platform Engineering Lab (GCP/Kubernetes R&D)**
+**Supporting Repository for Resume Entry: Platform Engineering Lab (GCP/Kubernetes R&D)**
 
 ## 🚀 Project Overview
 
-This repository documents a dedicated, systematic learning initiative to master the **Go programming language**, with a focus on core concepts essential for modern **Platform Engineering** and **Infrastructure Automation (IaC)**. The goal is to build foundational knowledge necessary for developing high-performance, concurrent, and scalable systems tools (CLI utilities, API services, Kubernetes controllers).
-
-The structure progresses from basic I/O and variable declaration through control flow, data types, and error handling, demonstrating a robust understanding of Go's unique syntax and system-level capabilities.
+This repository documents a dedicated, systematic learning initiative for Go, with a focus on core concepts essential for modern Platform Engineering and **Infrastructure as Code (IaC). The goal is to build the knowledge necessary for developing high-performance, concurrent, and scalable systems tools (CLI utilities, API services, Kubernetes controllers).
 
 | Environment | Detail |
 | :--- | :--- |
