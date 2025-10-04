@@ -28,6 +28,8 @@ Golang: 1.22.2
   [arrays.go](Code/Code/arrays.go)
 - 2025-09-30 Output of arrays code.  
   ![cde1-1](Code/cde1-1.jpg)
+- 2025-10-03 TROUBLSHOOTING: The subslice was calling the original array defined in the code that has string elements, not integers, and was slicing more elements then are defined.
+  ![cde1-2](Scripts/cde1-2.jpg)
 
 ## Scripts
 **Summary:** This section all scripts written in Go. Includes what they do and expected outcome, also includes any errors and debugging encountered.
