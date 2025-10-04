@@ -28,8 +28,14 @@ Golang: 1.22.2
   [arrays.go](Code/Code/arrays.go)
 - 2025-09-30 Output of arrays code.  
   ![cde1-1](Code/cde1-1.jpg)
-- 2025-10-03 TROUBLSHOOTING: The subslice was calling the original array defined in the code that has string elements, not integers, and was slicing more elements then are defined.
+- 2025-10-03 TROUBLESHOOTING: The subslice was calling the original array defined in the code that has string elements, not integers, and was slicing more elements then are defined.
   ![cde1-2](Code/cde1-2.jpg)
+- 2025-10-03 TROUBLESHOOTING: This array error is calling an index that is out of bounds of the element range in the array.
+  ![cde1-3](Code/cde1-3.jpg)
+- 2025-10-03 TROUBLESHOOTING: len() was not included in the code for the array.
+  ![cde1-4](Code/cde1-4.jpg)
+- 2025-10-03 TROUBLESHOOTING: This array error is calling an index that is out of bounds of the element range in the array.
+  ![cde1-4](Code/cde1-5.jpg)
 
 ## Scripts
 **Summary:** This section all scripts written in Go. Includes what they do and expected outcome, also includes any errors and debugging encountered.
@@ -160,3 +166,14 @@ Golang: 1.22.2
   [infinite_loop.go](Scripts/Scripts/infinite_loop.go)
 - 2025-09-30 Output of infinite_loop script.  
   ![scr1-32](Scripts/scr1-32.jpg)
+- 2025-10-03 TROUBLESHOOTING: The wrong variable is being called while the for loop is running.
+  ![scr1-33](Scripts/scr1-33.jpg)
+- 2025-10-03 Forloop and forloop break script. `forloop_and_forloop_break.go`  
+  [forloop_and_forloop_break.go](Scripts/Scripts/forloop_and_forloop_break.go)
+- 2025-10-03 Output of forloop_and_forloop_break script.  
+  ![scr1-34](Scripts/scr1-34.jpg)
+- 2025-10-03 Forloop_continue script. `forloop_continue.go`  
+  [forloop_continue.go](Scripts/Scripts/forloop_continue.go)
+- 2025-10-03 Output of forloop_continue script.  
+  ![scr1-35](Scripts/scr1-35.jpg)
+  
