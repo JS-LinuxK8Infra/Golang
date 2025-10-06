@@ -1,28 +1,31 @@
-// This defines the package being called
 package main
 
-// This imports the format package
 import (
 	"fmt"
 )
 
-// Call the main function
-func main() {
-	//Define two string variables
-	var state string = "Washington"
-	var state2 string = "Michigan"
-	//Define two integar variables
-	var i, i2 = 9, 6
-	//Prints the string variables with the equal to operator
+func stateEqualto() {
+	state := "Washington"
+	state2 := "Michigan"
 	fmt.Println(state == state2)
-	//Prints the string variables with the not equal to operator
+}
+
+func stateNotequalto() {
+	state := "Washington"
+	state2 := "Michigan"
 	fmt.Println(state != state2)
-	//Prints the integar variables with the less than operator
-	fmt.Println(i < i2)
-	//Prints the integar variables with the less than or equal to operator
-	fmt.Println(i <= i2)
-	//Prints the integar variables with the greater than operator
-	fmt.Println(i > i2)
-	//Prints the integar variables with the greater than or equal to operator
-	fmt.Println(i >= i2)
+}
+
+func lessThanGreaterThan() {
+	int1, int2 := 9, 6
+	fmt.Println(int1 < int2)
+	fmt.Println(int1 <= int2)
+	fmt.Println(int1 > int2)
+	fmt.Println(int1 >= int2)
+}
+
+func main() {
+	stateEqualto()
+	stateNotequalto()
+	lessThanGreaterThan()
 }
