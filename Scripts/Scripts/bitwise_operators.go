@@ -1,33 +1,43 @@
-// This defines the package being called
 package main
 
-// This imports the format package
 import (
 	"fmt"
 )
 
-// Call the main function
-func main() {
-	//Define two int variables, a third int variable which using the bitwise AND operator is equal to the combination of the first two variables
-	var j, t int = 43, 39
-	tn := j & t
-	//Define two int variables, a third int variable which using the bitwise AND operator is equal to the combination of the first two variables
-	var b, m int = 20, 20
-	mi := b | m
-	//Define two int variables, a third int variable which using the bitwise AND operator is equal to the combination of the first two variables
-	var a, r int = 18, 7
-	mt := a ^ r
-	//Define an int variable, and a second int variable which using the bitwise leftshift operator shifts all bits two to the left
-	var l int = 2
-	al := l << 2
-	//Define an int variable, and a second int variable which using the bitwise rightshift operator shifts all bits two to the right
-	var o int = 2
-	wa := o >> 2
-	//Prints the unassigned int variables, and the output of the assigned operator
-	fmt.Println(tn)
-	fmt.Println(mi)
-	fmt.Println(mt)
-	fmt.Println(al)
-	fmt.Println(wa)
+func bitwiseAND() {
+	int1, int2 := 43, 39
+	int3 := int1 & int2
+	fmt.Println(int3)
+}
 
+func bitwiseOR() {
+	int1, int2 := 20, 20
+	int3 := int1 | int2
+	fmt.Println(int3)
+}
+
+func bitwiseXOR() {
+	int1, int2 := 18, 7
+	int3 := int1 ^ int2
+	fmt.Println(int3)
+}
+
+func bitwiseLeftShift() {
+	int1 := 2
+	int2 := int1 << 2
+	fmt.Println(int2)
+}
+
+func bitwiseRightShift() {
+	int1 := 2
+	int2 := int1 >> 2
+	fmt.Println(int2)
+}
+
+func main() {
+	bitwiseAND()
+	bitwiseOR()
+	bitwiseXOR()
+	bitwiseLeftShift()
+	bitwiseRightShift()
 }
