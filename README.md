@@ -41,7 +41,7 @@ The following sections organize the learning artifacts by logical concept, demon
 | 2025-09-11 | `zeroValues.go` | Demonstrates default zero values for various data types (string, int, bool). |
 | 2025-09-14 | `dataTypes.go` | Explicitly verifies variable types using the `reflect.TypeOf` function. |
 | 2025-09-14 | `intToFloat64.go`, `float64ToInt.go` | Demonstrates explicit type casting between numeric types. |
-| 2025-09-14 | `strToIntNoerr.go`, `strToIntErr.go` | Uses `strconv.Atoi` for string-to-integer conversion, including structured error handling and intentionally triggering errors to demonstrate error flow. |
+| 2025-09-14 | `strIntAtoi.go`, `strToIntErr.go` | Uses `strconv.Atoi` for string-to-integer conversion, including structured error handling and intentionally triggering errors to demonstrate error flow. |
 | 2025-09-14 | `constants.go`, `constantsError.go` | Defines typed and untyped constants, including demonstrating compile-time errors with mismatched constant types. |
 
 ### 2. Operators and Control Flow
