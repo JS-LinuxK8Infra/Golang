@@ -22,7 +22,7 @@ The repository is organized to provide maximum transparency between code, execut
 | `Code/` | Contains foundational code and structured Go files, including data structures and type conversions. |
 | `Scripts/` | Contains various scripts focusing on I/O, variables, and control flow mechanics. |
 | `Screenshots/` | Visual evidence of all code execution and troubleshooting steps (referenced in the `OPERATIONAL_LOG.md`). |
-| `[OPERATIONS_LOG.md](OPERATIONS_LOG.md)` | **Full, chronological, dated log of all tasks, outputs, and troubleshooting steps.** 
+| `OPERATIONS_LOG.md` | **Full, chronological, dated log of all tasks, outputs, and troubleshooting steps.** 
 
 ---
 
