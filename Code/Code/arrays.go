@@ -20,7 +20,7 @@ func nameArray() {
 }
 
 func indexElementSwap() {
-	fruits := [3]string{"mangos,", "bannana,", "pineapple"}
+	fruits := [3]string{"mangos,", "banana,", "pineapple"}
 	fruits[0] = "blueberries,"
 	fmt.Println(len(fruits))
 	fmt.Println(fruits[2])
