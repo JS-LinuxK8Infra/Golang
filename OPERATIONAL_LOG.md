@@ -24,18 +24,18 @@ Golang: 1.22.2
 ## Code
 **Summary:** This section includes all Go code written - also includes any applicable troubleshooting.
 
-- 2025-09-30 Defines an array and assigns values to all 3 strings. Defines a second array and assigns values to all 4 int. Defines a third array and assigns values to all 4 strings. Defines a fourth array, assigns values to all 3 strings, prints the name of the array, calls the element from index 2 (plums), also (array indexing) replaces the element at index 0 with another string and prints the updated array. Assign ints to an 8 element array, then runs a for loop through the ints provided until reaching the end. Defines a fifth array, forloop through the array and provides the element with the corosponding index location. Defines a sixth array, muiltidimensional - 2D, specifies the number of indexes as well as the number of elements per index, then calls the desired element from the specified index. `arrays.go`
+- 2025-09-30 Defines an array and assigns values to all 3 strings. Defines a second array and assigns values to all 4 int. Defines a third array and assigns values to all 4 strings. Defines a fourth array, assigns values to all 3 strings, prints the name of the array, calls the element from index 2 (plums), also (array indexing) replaces the element at index 0 with another string and prints the updated array. Assign ints to an 8 element array, then runs a for loop through the ints provided until reaching the end. Defines a fifth array, forloop through the array and provides the element with the corresponding index location. Defines a sixth array, multidimensional - 2D, specifies the number of indexes as well as the number of elements per index, then calls the desired element from the specified index. `arrays.go`
   [arrays.go](Code/Code/arrays.go)
 - 2025-09-30 Output of arrays code.  
   ![cde1-1](Code/cde1-1.jpg)
-- 2025-10-03 TROUBLESHOOTING: The subslice was calling the original array defined in the code that has string elements, not integers, and was slicing more elements then are defined.
+- 2025-10-03 **TROUBLESHOOTING: The subslice was calling the original array defined in the code that has string elements, not integers, and was slicing more elements then are defined.**
   ![cde1-2](Code/cde1-2.jpg)
-- 2025-10-03 TROUBLESHOOTING: This array error is calling an index that is out of bounds of the element range in the array.
+- 2025-10-03 **TROUBLESHOOTING: This array error is calling an index that is out of bounds of the element range in the array.**
   ![cde1-3](Code/cde1-3.jpg)
-- 2025-10-03 TROUBLESHOOTING: len() was not included in the code for the array.
+- 2025-10-03 **TROUBLESHOOTING: len() was not included in the code for the array.**
   ![cde1-4](Code/cde1-4.jpg)
-- 2025-10-03 TROUBLESHOOTING: This array error is calling an index that is out of bounds of the element range in the array.
-  ![cde1-4](Code/cde1-5.jpg)
+- 2025-10-03 **TROUBLESHOOTING: This array error is calling an index that is out of bounds of the element range in the array.**
+  ![cde1-5](Code/cde1-5.jpg)
 
 ## Scripts
 **Summary:** This section all scripts written in Go. Includes what they do and expected outcome, also includes any errors and debugging encountered.
@@ -108,13 +108,13 @@ Golang: 1.22.2
   [constantsError.go](Scripts/Scripts/constantsError.go)
 - 2025-09-17 Output of constantsError script.  
   ![scr1-22](Scripts/scr1-22.jpg)
-- 2025-09-17 Defines six variables, two string, four integar, and utilizes all six comparison operators to return the expected boolean values to the terminal. `comparisonOperators.go`    
+- 2025-09-17 Defines six variables, two string, four integer, and utilizes all six comparison operators to return the expected boolean values to the terminal. `comparisonOperators.go`    
   [comparisonOperators.go](Scripts/Scripts/comparisonOperators.go)
 - 2025-09-17 Output of comparisonOperators script.  
   ![scr1-24](Scripts/scr1-24.jpg)
-- 2025-09-20 Defines multiple string, float64 and integer variables, then, uses various arithmatic operators to execute basic mathematical operations. `arithmaticOperators.go`  
-  [arithmaticOperators.go](Scripts/Scripts/arithmaticOperators.go)
-- 2025-09-20 Output of arithmaticOperators script.  
+- 2025-09-20 Defines multiple string, float64 and integer variables, then, uses various arithmetic operators to execute basic mathematical operations. `arithmeticOperators.go`  
+  [arithmeticOperators.go](Scripts/Scripts/arithmeticOperators.go)
+- 2025-09-20 Output of arithmeticOperators script.  
   ![scr1-25](Scripts/scr1-25.jpg)
 - 2025-09-26 Defines two int variables, then executes the script using all five logical operators. `logicalOperators.go`  
   [logicalOperators.go](Scripts/Scripts/logicalOperators.go)
@@ -132,7 +132,7 @@ Golang: 1.22.2
   [ifElseStatements.go](Scripts/Scripts/ifElseStatements.go)
 - 2025-09-28 Output of ifElseStatements script.  
   ![scr1-29](Scripts/scr1-29.jpg)
-- 2025-09-28 TROUBLESHOOTING: Code debugging/root cause analysis indicated the issue was using shorthand incorrectly as both the var and string were annotated, when the correct syntax was to use := and not annotate either of them.
+- 2025-09-28 **TROUBLESHOOTING: Code debugging/root cause analysis indicated the issue was using shorthand incorrectly as both the var and string were annotated, when the correct syntax was to use := and not annotate either of them.**
   ![scr1-30](Scripts/scr1-30.jpg)
 - 2025-09-28 Defines an int var, uses a switch-case operator, executes the case statement. Then, defines an int var that executes against multiple  case blocks finishing with printing the output to the terminal. Then, defines an int var, uses fallthrough, runs through each subsequent case block stopping at the first block not having fallthrough and prints that to the terminal. Finally, defines two int variables, runs through multiple case blocks without using fallthrough, and prints result to the terminal. `switchCase.go`  
   [switchCase.go](Scripts/Scripts/switchCase.go)
@@ -142,7 +142,7 @@ Golang: 1.22.2
   [infiniteLoop.go](Scripts/Scripts/infiniteLoop.go)
 - 2025-09-30 Output of infiniteLoop script.  
   ![scr1-32](Scripts/scr1-32.jpg)
-- 2025-10-03 TROUBLESHOOTING: The wrong variable is being called while the for loop is running.
+- 2025-10-03 **TROUBLESHOOTING: The wrong variable is being called while the for loop is running.**
   ![scr1-33](Scripts/scr1-33.jpg)
 - 2025-10-03 Forloop and forloop break script. `forLoop.go`  
   [forLoop.go](Scripts/Scripts/forLoop.go)
