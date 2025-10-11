@@ -9,7 +9,7 @@ This repository documents a dedicated, systematic learning initiative for Go, wi
 | Environment | Detail |
 | :--- | :--- |
 | **Operating System** | Ubuntu 24.04 LTS |
-| **Golang Version** | 1.22.2 |
+| **Golang Version** | 1.25.2 |
 
 ---
 
