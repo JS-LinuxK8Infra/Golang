@@ -43,7 +43,7 @@ Golang: 1.22.2
   ![cde1-5](Code/cde1-5.jpg)
 
 - 2025-10-10 **TROUBLESHOOTING: Slice range was equal for element subsitution - corrected by selecting an element one index before the range termination**
- ![cde1-6](Code/cde1-6.jpg)
+![cde1-6](Code/cde1-6.jpg)
 
 - 2025-10-10 Advanced slice creation, capacity management, and element manipulation. Multiple slice operations derived from static arrays and dynamically allocated memory using make(). Validated slicing behavior with varying start and end indices, including nested slicing and subslice creation. Explored slice length (len) and capacity (cap) relationships, observing how underlying array references change upon modification. Appended elements to existing slices to observe automatic capacity expansion, concatenation using variadic syntax (append(sliceA, sliceB...)), and element removal through selective slicing and rejoining. Implemented data duplication with copy() and verified accurate element transfer. Iterated through slices using both indexed and range-based loops to confirm index–value pairing behavior.
  ![cde1-7](Code/cde1-7.jpg)
