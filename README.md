@@ -57,9 +57,11 @@ The following sections organize the learning artifacts by logical concept, demon
 | 2025-09-30 | `infiniteLoop.go` | Basic structure of an infinite loop (which will be leveraged later for listeners/polling in system utilities). |
 
 ### 3. Data Structures
+
 | Date | File | Concept & Documentation |
 | :--- | :--- | :--- |
 | 2025-09-30 | `arrays.go` | Defines and manipulates single- and multi-dimensional (2D) arrays, including iteration using `for` loops and element assignment/replacement. Demonstrates `len()` usage, index element swapping, and nested (2D) array access. |
-| 2025-10-10 | `slices.go`, `maps.go` | Advanced data structure handling — demonstrates slice creation, append/capacity behavior, and complete map CRUD functionality (create, read, update, delete, iteration, truncation). |
+| 2025-10-10 | `slices.go` | Advanced slice handling: creation, slicing, subslicing, append, capacity growth, element removal, copying, and iteration using both indexed and range-based loops. Includes troubleshooting notes on correct subslice indexing. |
+| 2025-10-10 | `maps.go` | Complete map CRUD operations and iteration: create, read, update, delete, truncation, and existence checks using comma–ok idiom. Highlights mutability, zero-value behavior, and reference type behavior of maps. |
 
 ---
