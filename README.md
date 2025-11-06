@@ -1,6 +1,10 @@
-# Go Language Systematic Learning & Development
+## 💻 Systematic Go Learning & Development
 
-**Supporting Repository for Resume Entry: Platform Engineering Lab (GCP/Kubernetes R&D)**
+Structured Go language learning environment documenting core progression from syntax → data structures → control flow → automation fundamentals.
+
+Built over 30+ exercises with full operational logs, screenshots, and debugging documentation to reinforce reproducible, verifiable growth.
+
+🧠 Focus: Go fundamentals for IaC & platform automation · 🪵 30+ logged troubleshooting events · ⚙️ Verified reproducible execution
 
 ## 🚀 Project Overview
 
