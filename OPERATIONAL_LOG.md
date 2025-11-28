@@ -187,6 +187,6 @@ Golang: 1.22.2
 - 2025-11-19 Output of annoymousFunctions script.  
   ![scr1-40](Scripts/scr1-40.jpg)
 - 2025-11-27 addressOperators script. `addressOperators.go`  
-  [annoymousFunctions.go](Scripts/Scripts/annoymousFunctions.go)
+  [addressOperators.go](Scripts/Scripts/addressOperators.go)
 - 2025-11-27 Output of addressOperators script - declaring and initializing pointers; dereferencing a pointer, etc.
   ![scr1-41](Scripts/scr1-41.jpg)
