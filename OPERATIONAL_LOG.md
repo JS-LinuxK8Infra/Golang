@@ -182,11 +182,11 @@ Golang: 1.22.2
   [factorialRecursive.go](Scripts/Scripts/factorialRecursive.go)
 - 2025-11-19 Output of factorialRecursive script.  
   ![scr1-39](Scripts/scr1-39.jpg)
-- 2025-11-19 addressOperators script. `addressOperators.go`  
+- 2025-11-19 anonymousFunctions script. `annoymousFunctions.go`  
   [annoymousFunctions.go](Scripts/Scripts/annoymousFunctions.go)
-- 2025-11-19 Output of addressOperators script.  
-  ![scr1-41](Scripts/scr1-41.jpg)
-- 2025-11-27 anonymousFunctions script. `annoymousFunctions.go`  
-  [annoymousFunctions.go](Scripts/Scripts/annoymousFunctions.go)
-- 2025-11-29 Output of annoymousFunctions script.  
+- 2025-11-19 Output of annoymousFunctions script.  
   ![scr1-40](Scripts/scr1-40.jpg)
+- 2025-11-27 addressOperators script. `addressOperators.go`  
+  [annoymousFunctions.go](Scripts/Scripts/annoymousFunctions.go)
+- 2025-11-27 Output of addressOperators script - declaring and initializing pointers; dereferencing a pointer, etc.
+  ![scr1-41](Scripts/scr1-41.jpg)
