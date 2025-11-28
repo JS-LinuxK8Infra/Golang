@@ -152,7 +152,7 @@ Golang: 1.22.2
   [switchCase.go](Scripts/Scripts/switchCase.go)
 - 2025-09-28 Output of switchCase script.  
   ![scr1-31](Scripts/scr1-31.jpg)
-- 2025-09-30 Infinite loop that increments the jt var increasing by 1 each time and will not end until manually terminated. `infiniteLoop.go`  
+- 2025-09-30 Infinite loop that increments the jt var increasing by 1 each time and will not end until manually terminated. `infiniteLoop.go` 
   [infiniteLoop.go](Scripts/Scripts/infiniteLoop.go)
 - 2025-09-30 Output of infiniteLoop script.  
   ![scr1-32](Scripts/scr1-32.jpg)
@@ -162,27 +162,31 @@ Golang: 1.22.2
   [forLoop.go](Scripts/Scripts/forLoop.go)
 - 2025-10-03 Output of forLoop script.  
   ![scr1-34](Scripts/scr1-34.jpg)
-- 2025-11-29 singleValueMismatch script. `singleValueMismatch.go`  
+- 2025-11-19 singleValueMismatch script. `singleValueMismatch.go`  
   [singleValueMismatch.go](Scripts/Scripts/singleValueMismatch.go)
-- 2025-11-29 Output of singleValueMismatch script.  
+- 2025-11-19 Output of singleValueMismatch script.  
   ![scr1-35](Scripts/scr1-35.jpg)
-- 2025-11-29 multipleValuesReturned script. `multipleValuesReturned.go`  
+- 2025-11-19 multipleValuesReturned script. `multipleValuesReturned.go`  
   [multipleValuesReturned.go](Scripts/Scripts/multipleValuesReturned.go)
-- 2025-11-29 Output of multipleValuesReturned script.  
+- 2025-11-19 Output of multipleValuesReturned script.  
   ![scr1-36](Scripts/scr1-36.jpg)
-- 2025-11-29 multipleVariadicFunctions script. `multipleVariadicFunctions.go`  
+- 2025-11-19 multipleVariadicFunctions script. `multipleVariadicFunctions.go`  
   [multipleVariadicFunctions.go](Scripts/Scripts/multipleVariadicFunctions.go)
-- 2025-11-29 Output of multipleVariadicFunctions script.  
+- 2025-11-19 Output of multipleVariadicFunctions script.  
   ![scr1-37](Scripts/scr1-37.jpg)
-- 2025-11-29 blankIdentifier script. `blankIdentifier.go`  
+- 2025-11-19 blankIdentifier script. `blankIdentifier.go`  
   [blankIdentifier.go](Scripts/Scripts/blankIdentifier.go)
-- 2025-11-29 Output of blankIdentifier script.  
+- 2025-11-19 Output of blankIdentifier script.  
   ![scr1-38](Scripts/scr1-38.jpg)
-- 2025-11-29 factorialRecursive script. `factorialRecursive.go`  
+- 2025-11-19 factorialRecursive script. `factorialRecursive.go`  
   [factorialRecursive.go](Scripts/Scripts/factorialRecursive.go)
-- 2025-11-29 Output of factorialRecursive script.  
+- 2025-11-19 Output of factorialRecursive script.  
   ![scr1-39](Scripts/scr1-39.jpg)
-- 2025-11-29 anonymousFunctions script. `annoymousFunctions.go`  
+- 2025-11-19 addressOperators script. `addressOperators.go`  
+  [annoymousFunctions.go](Scripts/Scripts/annoymousFunctions.go)
+- 2025-11-19 Output of addressOperators script.  
+  ![scr1-41](Scripts/scr1-41.jpg)
+- 2025-11-27 anonymousFunctions script. `annoymousFunctions.go`  
   [annoymousFunctions.go](Scripts/Scripts/annoymousFunctions.go)
 - 2025-11-29 Output of annoymousFunctions script.  
   ![scr1-40](Scripts/scr1-40.jpg)
