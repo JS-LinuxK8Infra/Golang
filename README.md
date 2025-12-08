@@ -68,4 +68,8 @@ The following sections organize the learning artifacts by logical concept, demon
 | 2025-10-10 | `slices.go` | Advanced slice handling: creation, slicing, subslicing, append, capacity growth, element removal, copying, and iteration using both indexed and range-based loops. Includes troubleshooting notes on correct subslice indexing. |
 | 2025-10-10 | `maps.go` | Complete map CRUD operations and iteration: create, read, update, delete, truncation, and existence checks using comma–ok idiom. Highlights mutability, zero-value behavior, and reference type behavior of maps. |
 
+### 4. Functions and Advanced Patterns
+| :--- | :--- | :--- |
+| 2025-12-07 | `tipTaxCalculator.go` | Closures and higher-order functions: Demonstrates functions that return functions, closures that capture state, multiple return values, and struct field access from slices. Includes troubleshooting notes on function signature matching, parentheses around multiple return types, and capturing all return values. Real-world application: CLI tool for calculating sales tax and tips across multiple locations. |
+
 ---
