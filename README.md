@@ -12,8 +12,8 @@ This repository documents a dedicated, systematic learning initiative for Go, wi
 
 | Environment | Detail |
 | :--- | :--- |
-| **Operating System** | Ubuntu 24.04 LTS |
-| **Golang Version** | 1.25.2 |
+| **Operating System** | MacOS 26.1 |
+| **Golang Version** | go1.25.4 darwin/arm64 |
 
 ---
 
