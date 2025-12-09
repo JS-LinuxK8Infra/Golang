@@ -1,10 +1,6 @@
 # Scope
 Systematic Go language learning with scripts covering fundamentals to advanced concepts.
 
-## Environment
-Operating System: Ubuntu 24.04 LTS
-
-Golang: 1.22.2
 ```
 ├── README.md
 ├── Code/                       # Go code with use case documentation
