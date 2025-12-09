@@ -41,11 +41,20 @@ Systematic Go language learning with scripts covering fundamentals to advanced c
 - 2025-10-10 **TROUBLESHOOTING: Slice range was equal for element substitution - corrected by selecting an element one index before the range termination**  
 ![cde1-6](Code/cde1-6.jpg)
 
+- 2025-12-08 **TROUBLESHOOTING: Struct comparison was failing with "mismatched types JT and JTB" error when attempting to compare structs of different types using == operator. Resolution: Changed comparison to use same struct type (JTBA) for all variables.**  
+![scr1-42](Code/scr1-42.jpg)
+
+- 2025-12-08 **TROUBLESHOOTING: Slice range was equal for element substitution - corrected by selecting an element one index before the range termination**  
+![scr1-43](Code/scr1-43.jpg)
+
 - 2025-10-10 Advanced slice creation, capacity management, and element manipulation. Multiple slice operations derived from static arrays and dynamically allocated memory using make(). Validated slicing behavior with varying start and end indices, including nested slicing and subslice creation. Explored slice length (len) and capacity (cap) relationships, observing how underlying array references change upon modification. Appended elements to existing slices to observe automatic capacity expansion, concatenation using variadic syntax (append(sliceA, sliceB...)), and element removal through selective slicing and rejoining. Implemented data duplication with copy() and verified accurate element transfer. Iterated through slices using both indexed and range-based loops to confirm index–value pairing behavior.
  ![cde1-7](Code/cde1-7.jpg)
 
 - 2025-10-10 Complete map CRUD operations and iteration techniques. Creation, reading, updating, deletion, and iteration. Initialized key–value pairs using both string and integer types. Verified element existence using the comma–ok idiom (value, found := map[key]), validating map-safe lookups and zero-value return behavior for non-existent keys. Added and modified elements dynamically to test mutability, and used the built-in delete() function to remove individual entries. Implemented full map truncation using key-based iteration with deletion inside a for range loop, and zeroed the entire map through reinitialization with make(). Confirmed that maps are reference types with no guaranteed order of iteration.
  ![cde1-8](Code/cde1-8.jpg)
+
+2025-12-07 Built Go CLI tool for sales tax and tip calculations using closures and multiple return values. Demonstrates higher-order functions (functions that return functions), closures that capture state (tipTaxCalculator remembers ServiceType and tip slice), multiple return values from functions, struct field access from slice elements (tip[ServiceType].TipPercent), and clean user input handling with fmt.Scanf. Real-world application: calculates both tip and tax simultaneously for 9 service types (Restaurant, Bar, Delivery, Taxi, Haircut, Manicure, Pedicure, Tattoo, Hair Color/Cut) across the Seattle metro area with appropriate tip percentages and Seattle city sales tax rate (10.35%). Implemented using struct with three fields (ServiceType string, TipPercent float64, TaxRate float64), function returning closure with multiple float64 returns, and proper function signature matching with parentheses around return types. Key troubleshooting: missing closing braces, parentheses around multiple return types in function signatures, capturing all return values (cannot assign 2 values to 1 variable), and ensuring function signatures match exactly between caller and callee.
+ ![cde1-9](Code/cde1-9.jpg)
   
 ## Code
 **Summary:** This section all code written in Go. Includes what it does and expected outcome, also includes any errors and debugging encountered.
