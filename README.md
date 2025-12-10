@@ -1,14 +1,13 @@
 ## 💻 Systematic Go Learning & Development
 
-Structured Go language learning environment documenting core progression from syntax → data structures → control flow → automation fundamentals.
-
+Structured Go language learning environment documenting core progression from syntax → data structures → control flow → structs & methods → CLI tooling.
 Built over 30+ exercises with full operational logs, screenshots, and debugging documentation to reinforce reproducible, verifiable growth.
 
 🧠 Focus: Go fundamentals for IaC & platform automation · 🪵 30+ logged troubleshooting events · ⚙️ Verified reproducible execution
 
 ## 🚀 Project Overview
 
-This repository documents a dedicated, systematic learning initiative for Go, with a focus on core concepts essential for modern Platform Engineering and Infrastructure as Code (IaC). The goal is to build the knowledge necessary for developing high-performance, concurrent, and scalable systems tools (CLI utilities, API services, Kubernetes controllers).
+This repository documents a dedicated, systematic learning initiative for Go, with a focus on core concepts essential for modern Platform Engineering and Infrastructure as Code (IaC). The goal is to build the knowledge necessary for developing high-performance, concurrent, and scalable systems tools (CLI utilities (current) Microservices in progress).
 
 | Environment | Detail |
 | :--- | :--- |
@@ -68,7 +67,14 @@ The following sections organize the learning artifacts by logical concept, demon
 | 2025-10-10 | `slices.go` | Advanced slice handling: creation, slicing, subslicing, append, capacity growth, element removal, copying, and iteration using both indexed and range-based loops. Includes troubleshooting notes on correct subslice indexing. |
 | 2025-10-10 | `maps.go` | Complete map CRUD operations and iteration: create, read, update, delete, truncation, and existence checks using comma–ok idiom. Highlights mutability, zero-value behavior, and reference type behavior of maps. |
 
-### 4. CLI Tooling
+### 4. Structs and Methods
+
+| Date | File | Concept & Documentation |
+| :--- | :--- | :--- |
+| 2025-12-08 | `smithStruct.go` | Struct definition, instantiation methods (field-by-field and inline literal), struct comparison with ==/!=, slice of structs, iteration with range, Go-syntax formatting with %#v. |
+| 2025-12-08 | `methods.go` | Methods attached to structs, pointer receivers vs value receivers, modifying struct fields through methods.
+
+### 5. CLI Tooling
 
 | Date | File | Concept & Documentation |
 | :--- | :--- | :--- |
