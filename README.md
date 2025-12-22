@@ -8,6 +8,19 @@ Concurrency debugging including go routines, wait groups, channels, context -> r
 
 🧠 Focus: Go for IaC & platform automation · 🪵 40+ logged troubleshooting events · ⚙️ Verified reproducible execution
 
+```
+├── Code
+│   └── Go code and screenshots ranging from variables to structs; includes troubleshooting.
+├── Concurrency
+│   └── Production safety and troubleshooting involving wait groups, go routines, unbuffered/buffered channels and context. Addressing race conditions, infinite loops and deadlocks.
+├── Miscellaneous 
+│   └── Compiler install and version validation.
+├── Tooling 
+│   └── Dual-purpose CLI tools implementing closures, higher-order functions, multiple return values, pointers, structs, deferred execution, and file logging.
+├── OPS_LOG.md
+├── README.md
+```
+
 ## 🚀 Project Overview
 
 This repository documents a dedicated, systematic initiative for Go, with a focus on fundamentals, CLI tooling, concurrency debugging and production safety. 
