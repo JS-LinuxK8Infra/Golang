@@ -1,13 +1,16 @@
-## 💻 Systematic Go Learning & Development
+## 💻 Go Proficiency Enhancement
 
-Structured Go language learning environment documenting core progression from syntax → data structures → control flow → structs & methods → CLI tooling.
-Built over 30+ exercises with full operational logs, screenshots, and debugging documentation to reinforce reproducible, verifiable growth.
+Structured Go proficiency enhancement to include CLI tooling and concurrency debugging.
 
-🧠 Focus: Go fundamentals for IaC & platform automation · 🪵 30+ logged troubleshooting events · ⚙️ Verified reproducible execution
+Built over 40+ exercises with full operational logs, screenshots, and debugging documentation.
+
+Concurrency debugging including go routines, wait groups, context -> race conditions, infinite loops, deadlocks.
+
+🧠 Focus: Go for IaC & platform automation · 🪵 40+ logged troubleshooting events · ⚙️ Verified reproducible execution
 
 ## 🚀 Project Overview
 
-This repository documents a dedicated, systematic learning initiative for Go, with a focus on core concepts essential for modern Platform Engineering and Infrastructure as Code (IaC). The goal is to build the knowledge necessary for developing high-performance, concurrent, and scalable systems tools (CLI utilities (current) Microservices in progress).
+This repository documents a dedicated, systematic initiative for Go, with a focus on fundamentals, CLI tooling, concurrency debugging and production safety. 
 
 | Environment | Detail |
 | :--- | :--- |
