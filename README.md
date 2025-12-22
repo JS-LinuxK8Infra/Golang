@@ -4,7 +4,7 @@ Structured Go proficiency enhancement to include CLI tooling and concurrency deb
 
 Built over 40+ exercises with full operational logs, screenshots, and debugging documentation.
 
-Concurrency debugging including go routines, wait groups, context -> race conditions, infinite loops, deadlocks.
+Concurrency debugging including go routines, wait groups, channels, context -> race conditions, infinite loops, deadlocks.
 
 🧠 Focus: Go for IaC & platform automation · 🪵 40+ logged troubleshooting events · ⚙️ Verified reproducible execution
 
