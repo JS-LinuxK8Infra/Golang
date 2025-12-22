@@ -8,6 +8,10 @@ Concurrency debugging including go routines, wait groups, channels, context -> r
 
 🧠 Focus: Go for IaC & platform automation · 🪵 40+ logged troubleshooting events · ⚙️ Verified reproducible execution
 
+## 🛠 Project Structure
+
+The repository is organized to provide maximum transparency between code, execution, and troubleshooting.
+
 ```
 ├── Code
 │   └── Go code and screenshots ranging from variables to structs; includes troubleshooting.
@@ -21,27 +25,16 @@ Concurrency debugging including go routines, wait groups, channels, context -> r
 ├── README.md
 ```
 
+---
+
 ## 🚀 Project Overview
 
 This repository documents a dedicated, systematic initiative for Go, with a focus on fundamentals, CLI tooling, concurrency debugging and production safety. 
 
 | Environment | Detail |
 | :--- | :--- |
-| **Operating System** | MacOS 26.1 |
+| **Operating System** | MacOS 26.2 (Tahoe) |
 | **Golang Version** | go1.25.4 darwin/arm64 |
-
----
-
-## 🛠 Project Structure
-
-The repository is organized to provide maximum transparency between code, execution, and troubleshooting.
-
-| Folder | Description |
-| :--- | :--- |
-| `Code/` | Contains foundational code and structured Go files, including data structures and type conversions. |
-| `Scripts/` | Contains various scripts focusing on I/O, variables, and control flow mechanics. |
-| `Screenshots/` | Visual evidence of all code execution and troubleshooting steps (referenced in the `OPERATIONAL_LOG.md`). |
-| `OPERATIONS_LOG.md` | Full, chronological, dated log of all tasks, outputs, and troubleshooting steps. |
 
 ---
 
