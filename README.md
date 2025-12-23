@@ -2,7 +2,7 @@
 
 Structured Go proficiency enhancement to include CLI tooling and concurrency debugging.
 
-Built over 45 exercises with full operational logs, screenshots, and debugging documentation.
+Built over 46 exercises with full operational logs, screenshots, and debugging documentation.
 
 🧠 Focus: Go for IaC & platform automation · 🪵 40+ logged troubleshooting events · ⚙️ Verified reproducible execution
 
@@ -104,6 +104,7 @@ The following sections organize the learning artifacts by logical concept, demon
 | Date | File | Concept & Documentation |
 | :--- | :--- | :--- |
 | 2025-12-07 | `tipTaxCalculator.go` | Production CLI tool implementing closures, higher-order functions, multiple return values, struct field access from slices. Real-world application: calculates sales tax and tips across 9 service types for Seattle metro area. **Includes troubleshooting on function signature matching and return value handling.** |
+| 2025-12-22 | `salesTaxWestWa.go` | Production CLI tool implementing closures, higher-order functions, multiple return values, struct field access from slices. Real-world application: calculates sales tax across 8 locations in the Seattle metro area. |
 
 ---
 
@@ -114,7 +115,7 @@ The following sections organize the learning artifacts by logical concept, demon
 | **Code Exercises** | 28 | Complete execution screenshots (cde1-cde28) |
 | **Debugging Scenarios** | 13 | Root cause analysis with fixes (db1-db13) |
 | **Concurrency Patterns** | 3 | Production safety patterns (con1-con3) |
-| **CLI Tools** | 1 | Full-featured calculator with closures (tool1) |
+| **CLI Tools** | 2 | Full-featured tax and tip calculator with closures (tool1), Full-featured tax and tip calculator with closures (tool2) |
 | **Total Logged Events** | 45 | OPS_LOG.md contains all screenshots and troubleshooting |
 
 🧠 **Focus:** Go for IaC & platform automation  
