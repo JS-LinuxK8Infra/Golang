@@ -27,7 +27,11 @@ The repository is organized to provide maximum transparency between code, execut
 
 ## 🚀 Project Overview
 
-This repository documents a dedicated, systematic initiative for Go, with a focus on fundamentals, CLI tooling, concurrency debugging and production safety. 
+This repository documents systematic Go proficiency development from fundamentals through concurrency patterns and CLI tooling. Every exercise includes executable code, output screenshots, and troubleshooting documentation.
+
+**Built:** 28 code exercises, 13 debugging scenarios, 3 concurrency patterns, 1 production CLI tool  
+**Documented:** 45 execution events with full screenshots and root cause analysis  
+**Focus:** Go for Infrastructure as Code and platform automation
 
 | Environment | Detail |
 | :--- | :--- |
@@ -38,53 +42,82 @@ This repository documents a dedicated, systematic initiative for Go, with a focu
 
 ## 📚 Core Learning Concepts by Category
 
-The following sections organize the learning artifacts by logical concept, demonstrating progression from basic syntax to data structure manipulation.
+The following sections organize the learning artifacts by logical concept, demonstrating progression from basic syntax to concurrency patterns and CLI tooling.
 
 ### 1. Variables, Types, and I/O Fundamentals
 
 | Date | File | Concept & Documentation |
 | :--- | :--- | :--- |
-| 2025-09-04 | `goodEvening.go`, `greeting.go` | Basic package declaration and I/O using `fmt.Print/Println`. Includes initial troubleshooting/debugging on comment syntax (`#` vs `//`). |
-| 2025-09-06 | `nameLocationOpinion*.go` | Demonstrates variable assignment, string interpolation, and I/O formatting (newline characters and `fmt.Println`). |
-| 2025-09-07 | `shorthand.go` | Usage of shorthand declaration (`:=`) for implicit type inference. |
-| 2025-09-11 | `outerInnerBlocks.go` | Exploration of variable scope and shadowing in outer and inner code blocks. |
-| 2025-09-11 | `zeroValues.go` | Demonstrates default zero values for various data types (string, int, bool). |
-| 2025-09-14 | `dataTypes.go` | Explicitly verifies variable types using the `reflect.TypeOf` function. |
-| 2025-09-14 | `intToFloat64.go`, `float64ToInt.go` | Demonstrates explicit type casting between numeric types. |
-| 2025-09-14 | `strIntAtoi.go`, `strToIntErr.go` | Uses `strconv.Atoi` for string-to-integer conversion, including structured error handling and intentionally triggering errors to demonstrate error flow. |
-| 2025-09-14 | `constants.go`, `constantsError.go` | Defines typed and untyped constants, including demonstrating compile-time errors with mismatched constant types. |
+| 2025-09-04 | `goodEvening.go` | Basic package declaration and I/O using `fmt.Print/Println`. Includes initial troubleshooting/debugging on comment syntax (`#` vs `//`). |
+| 2025-09-06 | `author.go`, `nameLocationOpinion.go`, `months.go` | Variable assignment, string interpolation, and I/O formatting with `fmt.Printf`. |
+| 2025-09-07 | `shorthand.go` | Shorthand declaration (`:=`) for implicit type inference. |
+| 2025-09-11 | `outerInnerBlocks.go` | Variable scope and shadowing in outer and inner code blocks. |
+| 2025-09-11 | `zeroValues.go` | Default zero values for various data types (string, int, bool). |
+| 2025-09-14 | `intToFloat64.go`, `float64ToInt.go`, `intToStr.go` | Explicit type casting between numeric and string types. |
 
 ### 2. Operators and Control Flow
 
 | Date | File | Concept & Documentation |
 | :--- | :--- | :--- |
-| 2025-09-17 | `comparisonOperators.go` | Usage of all six comparison operators (==, !=, >, <, >=, <=) to return boolean values. |
-| 2025-09-20 | `arithmeticOperators.go` | Execution of basic mathematical operations (+, -, *, /, %). |
-| 2025-09-26 | `logicalOperators.go` | Demonstrates logical operators (AND `&&`, OR `||`, NOT `!`) in conditional contexts. |
-| 2025-09-26 | `assignmentOperators.go`, `bitwise_operators.go` | Demonstrates all five assignment and bitwise operators. |
-| 2025-09-28 | `ifElseStatements.go` | Implements conditional logic using `if-else` blocks. **Includes troubleshooting on incorrect shorthand usage.** |
-| 2025-09-28 | `switchCase.go` | Advanced usage of `switch` statements, including the use of `fallthrough` to execute subsequent case blocks. |
-| 2025-09-30 | `infiniteLoop.go` | Basic structure of an infinite loop (which will be leveraged later for listeners/polling in system utilities). |
+| 2025-09-20 | `arithmeticOperators.go` | Basic mathematical operations (+, -, *, /, %). |
+| 2025-09-26 | `logicalOperators.go`, `assignmentOperators.go`, `bitwiseOperators.go` | Logical, assignment, and bitwise operators. |
+| 2025-09-28 | `ifElseStatements.go` | Conditional logic using `if-else` blocks. **Includes troubleshooting on incorrect shorthand usage.** |
+| 2025-09-28 | `switchCase.go` | Advanced `switch` statements with `fallthrough` for executing subsequent case blocks. |
+| 2025-09-30 | `infiniteLoop.go` | Infinite loop structure for system utilities and event listeners. |
 
-### 3. Data Structures
+### 3. Loops and Data Structures
 
 | Date | File | Concept & Documentation |
 | :--- | :--- | :--- |
-| 2025-09-30 | `arrays.go` | Defines and manipulates single- and multi-dimensional (2D) arrays, including iteration using `for` loops and element assignment/replacement. Demonstrates `len()` usage, index element swapping, and nested (2D) array access. |
-| 2025-10-10 | `slices.go` | Advanced slice handling: creation, slicing, subslicing, append, capacity growth, element removal, copying, and iteration using both indexed and range-based loops. Includes troubleshooting notes on correct subslice indexing. |
-| 2025-10-10 | `maps.go` | Complete map CRUD operations and iteration: create, read, update, delete, truncation, and existence checks using comma–ok idiom. Highlights mutability, zero-value behavior, and reference type behavior of maps. |
+| 2025-09-30 | `arrays.go` | Single- and multi-dimensional (2D) arrays, iteration with `for` loops, element assignment/replacement, `len()` usage. |
+| 2025-10-03 | `forLoop.go` | For loop iteration patterns and break statements. |
+| 2025-10-10 | (Advanced slices) | Slice creation, capacity management, append, element removal, copy, and iteration. **Includes troubleshooting on subslice indexing.** |
+| 2025-10-10 | (Maps) | Complete map CRUD operations: create, read, update, delete, truncation, comma–ok idiom for existence checks. |
 
-### 4. Structs and Methods
-
-| Date | File | Concept & Documentation |
-| :--- | :--- | :--- |
-| 2025-12-08 | `smithStruct.go` | Struct definition, instantiation methods (field-by-field and inline literal), struct comparison with ==/!=, slice of structs, iteration with range, Go-syntax formatting with %#v. |
-| 2025-12-08 | `methods.go` | Methods attached to structs, pointer receivers vs value receivers, modifying struct fields through methods.
-
-### 5. CLI Tooling
+### 4. Functions and Advanced Concepts
 
 | Date | File | Concept & Documentation |
 | :--- | :--- | :--- |
-| 2025-12-07 | `tipTaxCalculator.go` | Closures and higher-order functions: Demonstrates functions that return functions, closures that capture state, multiple return values, and struct field access from slices. Includes troubleshooting notes on function signature matching, parentheses around multiple return types, and capturing all return values. Real-world application: CLI tool for calculating sales tax and tips across multiple locations. |
+| 2025-11-19 | `multipleValuesReturned.go` | Functions returning multiple values. |
+| 2025-11-19 | `multipleVariadicFunctions.go` | Variadic functions accepting variable number of arguments. |
+| 2025-11-19 | `blankIdentifier.go` | Using `_` to ignore unwanted return values. |
+| 2025-11-19 | `factorialRecursive.go` | Recursive function implementation. |
+| 2025-11-19 | `anonymousFunctions.go` | Anonymous functions and closures. |
+| 2025-11-27 | `addressOperators.go` | Declaring and initializing pointers, dereferencing, memory addresses. |
 
+### 5. Structs and Methods
+
+| Date | File | Concept & Documentation |
+| :--- | :--- | :--- |
+| 2025-12-08 | `smithStruct.go` | Struct definition, instantiation methods, struct comparison with `==`/`!=`, slice of structs, iteration with range, Go-syntax formatting with `%#v`. **Includes troubleshooting on struct type mismatches.** |
+
+### 6. Concurrency Patterns
+
+| Date | File | Concept & Documentation |
+| :--- | :--- | :--- |
+| 2025-12-22 | `closedChannels.go` | Buffered channels and closed channel detection with boolean checks. |
+| 2025-12-22 | `timeOutCode.go` | Channel timeout patterns using `select` and `time.After`. |
+| 2025-12-22 | `unbufferedChannelForLoop.go` | Unbuffered channel communication with for-range loops. |
+
+### 7. CLI Tooling
+
+| Date | File | Concept & Documentation |
+| :--- | :--- | :--- |
+| 2025-12-07 | `tipTaxCalculator.go` | Production CLI tool implementing closures, higher-order functions, multiple return values, struct field access from slices. Real-world application: calculates sales tax and tips across 9 service types for Seattle metro area. **Includes troubleshooting on function signature matching and return value handling.** |
+
+---
+
+## 📊 Repository Metrics
+
+| Category | Count | Documentation |
+|----------|-------|---------------|
+| **Code Exercises** | 28 | Complete execution screenshots (cde1-cde28) |
+| **Debugging Scenarios** | 13 | Root cause analysis with fixes (db1-db13) |
+| **Concurrency Patterns** | 3 | Production safety patterns (con1-con3) |
+| **CLI Tools** | 1 | Full-featured calculator with closures (tool1) |
+| **Total Logged Events** | 45 | OPS_LOG.md contains all screenshots and troubleshooting |
+
+🧠 **Focus:** Go for IaC & platform automation  
+🪵 **45 logged execution and troubleshooting events**  
+⚙️ **Verified reproducible execution with screenshots**
 ---
