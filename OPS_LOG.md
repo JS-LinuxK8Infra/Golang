@@ -172,8 +172,3 @@ Go code, debugging and CLI tooling.
   [unbufferedChannelForLoop.go](Code/Code/unbufferedChannelForLoop.go)
 - 2025-12-22 Output of unbufferedChannelForLoop code.  
     ![con3](Concurrency/con3.jpg)
-
-- 2025-12-22 Outputs multiple buffered channels and boolean regarding if they are true or not. `mutex.go`  
-  [mutex.go](Code/Code/mutex.go)
-- 2025-12-22 Output of unmutex code.  
-    ![con4](Concurrency/con4.jpg)
