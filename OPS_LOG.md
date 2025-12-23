@@ -154,3 +154,26 @@ Go code, debugging and CLI tooling.
   [smithStruct.go](Code/Code/smithStruct.go)
 - 2025-12-08 Struct comparison, instantiation methods (field-by-field and inline literal), slice of structs, iteration with range, Go-syntax formatting with %#v.
   ![cde28](Code/cde28.jpg)
+
+## Concurrency
+**Summary:** Production safety and troubleshooting: Channels, Mutex, WaitGroups, Context - Race Conditions, Deadlocks, Infinite Loops.
+
+- 2025-12-22 Outputs multiple buffered channels and boolean regarding if they are true or not. `closedChannels.go`  
+  [closedChannels.go](Code/Code/closedChannels.go)
+- 2025-12-22 Output of closedChannels code.  
+    ![con1](Concurrency/con1.jpg)
+
+- 2025-12-22 Outputs multiple buffered channels and boolean regarding if they are true or not. `timeOutCode.go`  
+  [timeOutCode.go](Code/Code/timeOutCode.go)
+- 2025-12-22 Output of timeOutCode code.  
+    ![con2](Concurrency/con2.jpg)
+
+- 2025-12-22 Outputs multiple buffered channels and boolean regarding if they are true or not. `unbufferedChannelForLoop.go`  
+  [unbufferedChannelForLoop.go](Code/Code/unbufferedChannelForLoop.go)
+- 2025-12-22 Output of unbufferedChannelForLoop code.  
+    ![con3](Concurrency/con3.jpg)
+
+- 2025-12-22 Outputs multiple buffered channels and boolean regarding if they are true or not. `mutex.go`  
+  [mutex.go](Code/Code/mutex.go)
+- 2025-12-22 Output of unmutex code.  
+    ![con4](Concurrency/con4.jpg)
