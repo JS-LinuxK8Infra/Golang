@@ -14,7 +14,7 @@ The repository is organized to provide maximum transparency between code, execut
 ├── Code
 │   └── Go code and screenshots ranging from variables to structs; includes troubleshooting.
 ├── Concurrency
-│   └── Production safety and troubleshooting involving wait groups, go routines, unbuffered/buffered channels and context. Addressing race conditions, infinite loops and deadlocks.
+│   └── Production safety and troubleshooting.
 ├── Miscellaneous 
 │   └── Compiler install and version validation.
 ├── Tooling 
